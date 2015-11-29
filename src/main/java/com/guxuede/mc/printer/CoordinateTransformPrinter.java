@@ -24,7 +24,7 @@ public class CoordinateTransformPrinter extends AsynchronouslyPrinter{
 		float cx = (float) getCenterPoint().getX();
 		float cy = (float) getCenterPoint().getY();
 		float cz = (float) getCenterPoint().getZ();
-		p.point.rotate(getPpbox().getCenterPoint(),roate);
+		p.point.rotate(getPaintPointBox().getCenterPoint(),roate);
 		
 		float ox = p.point.x;
 		float oy = p.point.y;

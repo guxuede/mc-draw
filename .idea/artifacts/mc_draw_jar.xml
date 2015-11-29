@@ -3,6 +3,7 @@
     <output-path>H:/mc-server-spigot-1.8.3/plugins</output-path>
     <root id="archive" name="mc-draw.jar">
       <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="module-output" name="mc-draw" />
     </root>
   </artifact>
 </component>

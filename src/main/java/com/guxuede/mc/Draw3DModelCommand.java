@@ -45,8 +45,8 @@ public class Draw3DModelCommand implements CommandExecutor {
             @Override
             public void run() {
                 PaintPointBox paintPointBox = null;
-                try {
-                    paintPointBox = new ModelObjectLoader(faceVertex,material).load(new FileInputStream(new File(filePath)));
+                try(FileInputStream in = new FileInputStream(new File(filePath))) {
+                    paintPointBox = new ModelObjectLoader(faceVertex,material).load(in);
                 } catch (NotSupportResource notSupportResource) {
                     notSupportResource.printStackTrace();
                 } catch (IOException e) {

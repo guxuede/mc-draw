@@ -37,9 +37,9 @@ public class DrawPicCommand implements CommandExecutor {
         int rotate = (split == null || split.length < 3)?0:Integer.parseInt(split[2]);
         
         player.sendMessage("Drawing...");
-		try {
+        try(FileInputStream in = new FileInputStream(new File(filePath))) {
             ImageObjectLoader loader = new ImageObjectLoader();
-            PaintPointBox paintPointBox = loader.load(new FileInputStream(new File(filePath)));
+            PaintPointBox paintPointBox = loader.load(in);
             CoordinateTransformPrinter printer = new CoordinateTransformPrinter(paintPointBox, javaPlugin, player);
             printer.setType(drawClass);
             printer.roate = rotate;
