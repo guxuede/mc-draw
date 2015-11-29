@@ -1,0 +1,18 @@
+name: DrawPlugin
+main: com.guxuede.mc.DrawPlugin
+version: 0.1
+commands:
+  drawpic:
+    description: draw image pic
+    usage: /drawpic filePath [Direction] [rotateDegree]
+    permissions:
+     guxuede.drawpic:
+        description: you have no permissions to excute drawpic.
+        default: op
+  draw3d:
+    description: draw 3d model
+    usage: /draw3d filePath [material] [0.draw face;1.only Vertex] [Direction] [rotateDegree]
+    permissions:
+     guxuede.draw3d:
+        description: you have no permissions to excute drawpic.
+        default: op
