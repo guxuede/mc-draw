@@ -17,16 +17,16 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
-      <profile default="false" name="Annotation profile for mc-drawpic" enabled="true">
+      <profile default="false" name="Annotation profile for mc-draw" enabled="true">
         <sourceOutputDir name="target\generated-sources\annotations" />
         <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="mc-drawpic" />
+        <module name="mc-draw" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mc-drawpic" target="1.7" />
+      <module name="mc-draw" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

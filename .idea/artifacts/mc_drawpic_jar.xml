@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="mc-drawpic:jar">
-    <output-path>H:/mc-server-spigot-1.8.3/plugins/</output-path>
-    <root id="archive" name="mc-drawpic.jar">
-      <element id="module-output" name="mc-drawPlugin" />
-      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
-    </root>
-  </artifact>
-</component>
