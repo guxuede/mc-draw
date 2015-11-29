@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="964e1104-cafb-4511-a808-fca61fa954e6" name="Default" comment="add showcase pic">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guxuede/mc/printer/AsynchronouslyPrinter.java" afterPath="$PROJECT_DIR$/src/main/java/com/guxuede/mc/printer/AsynchronouslyPrinter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guxuede/mc/printer/CoordinateTransformPrinter.java" afterPath="$PROJECT_DIR$/src/main/java/com/guxuede/mc/printer/CoordinateTransformPrinter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guxuede/mc/Draw3DModelCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/guxuede/mc/Draw3DModelCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guxuede/mc/DrawPicCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/guxuede/mc/DrawPicCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mc-draw.iml" afterPath="$PROJECT_DIR$/mc-draw.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/mc_draw_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/mc_draw_jar.xml" />
+    <list default="true" id="964e1104-cafb-4511-a808-fca61fa954e6" name="Default" comment="add showcase pic,and change the cancel task code">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/showcase/QQ截图20151129193331.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="G:\workspace\gameWorkSpace\mc-draw\target\classes\com\guxuede\mc\printer\AsynchronouslyPrinter$1$1.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/guxuede/mc/printer/AsynchronouslyPrinter$1.class" afterPath="$PROJECT_DIR$/target/classes/com/guxuede/mc/printer/AsynchronouslyPrinter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/guxuede/mc/printer/AsynchronouslyPrinter.class" afterPath="$PROJECT_DIR$/target/classes/com/guxuede/mc/printer/AsynchronouslyPrinter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/guxuede/mc/printer/CoordinateTransformPrinter.class" afterPath="$PROJECT_DIR$/target/classes/com/guxuede/mc/printer/CoordinateTransformPrinter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/guxuede/mc/Draw3DModelCommand$1.class" afterPath="$PROJECT_DIR$/target/classes/com/guxuede/mc/Draw3DModelCommand$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/guxuede/mc/Draw3DModelCommand.class" afterPath="$PROJECT_DIR$/target/classes/com/guxuede/mc/Draw3DModelCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/guxuede/mc/DrawPicCommand.class" afterPath="$PROJECT_DIR$/target/classes/com/guxuede/mc/DrawPicCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mc-draw.iws" />
@@ -601,7 +603,7 @@
       <created>1448790571310</created>
       <option name="number" value="Default" />
       <updated>1448790571310</updated>
-      <workItem from="1448790574162" duration="5178000" />
+      <workItem from="1448790574162" duration="5282000" />
     </task>
     <task id="LOCAL-00001" summary="add showcase pic">
       <created>1448791118532</created>
@@ -615,11 +617,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448792442905</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add showcase pic,and change the cancel task code">
+      <created>1448798908087</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1448798908087</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5178000" />
+    <option name="totallyTimeSpent" value="5282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -682,7 +690,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add showcase pic" />
-    <option name="LAST_COMMIT_MESSAGE" value="add showcase pic" />
+    <MESSAGE value="add showcase pic,and change the cancel task code" />
+    <option name="LAST_COMMIT_MESSAGE" value="add showcase pic,and change the cancel task code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
